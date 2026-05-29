@@ -28,9 +28,7 @@ class DataIngestionConfig:
     # 🔥 IMPORTANT FIX
     client_id: str = "token"
     client_secret: str = os.getenv(
-        "ASTRA_DB_TOKEN",
-        "AstraCS:ZqFMwbQuZftxNIXGJXcSDvPi:708b91773c1452d37ef49648ca3dd735ab0d0475eb282a08261409adba87b7d3"
-    )
+        "ASTRA_DB_TOKEN")
 
 
 @dataclass
