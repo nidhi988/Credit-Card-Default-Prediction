@@ -40,47 +40,89 @@ credit_default_project/
 │   ├── raw.csv
 
 │   ├── train.csv
+
 │   ├── test.csv
+
 │   ├── train_transformed.csv
+
 │   ├── test_transformed.csv
+
 │   ├── model.pkl
+
 │   ├── preprocessor.pkl
+
 │   └── logs/
+
 │
+
 ├── config/
+
 │   └── secure-connect-database.zip
+
 │
+
 ├── notebook/
+
 │   └── eda.ipynb
+
 │
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── data_ingestion.py
+
 │   │   ├── data_validation.py
+
 │   │   ├── data_transformation.py
+
 │   │   ├── model_trainer.py
+
 │   │   └── model_evaluation.py
+
 │   │
+
 │   ├── entity/
+
 │   │   ├── config_entity.py
+
 │   │   └── artifact_entity.py
+
 │   │
+
 │   ├── pipeline/
+
 │   │   └── prediction_pipeline.py
+
 │   │
+
 │   ├── logger/
+
 │   │   └── logger.py
+
 │   │
+
 │   ├── exception/
+
 │   │   └── exception.py
+
 │   │
+
 │   └── utils.py
+
 │
+
 ├── templates/
+
 │   └── index.html
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
 ```
 
