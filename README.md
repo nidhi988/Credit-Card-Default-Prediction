@@ -32,9 +32,13 @@ The goal of this project is to build a complete ML workflow capable of:
 # 📁 Project Structure
 
 credit_default_project/
+
 │
+
 ├── artifacts/
+
 │   ├── raw.csv
+
 │   ├── train.csv
 │   ├── test.csv
 │   ├── train_transformed.csv
