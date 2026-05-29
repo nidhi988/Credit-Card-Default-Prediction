@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Default Prediction</title>
+</head>
+<body>
+
+    <h2>Credit Default Prediction</h2>
+
+    <form action="/predict" method="post">
+
+        LIMIT_BAL: <input type="number" name="LIMIT_BAL"><br><br>
+        SEX: <input type="number" name="SEX"><br><br>
+        EDUCATION: <input type="number" name="EDUCATION"><br><br>
+        MARRIAGE: <input type="number" name="MARRIAGE"><br><br>
+        AGE: <input type="number" name="AGE"><br><br>
+
+        PAY_0: <input type="number" name="PAY_0"><br><br>
+        PAY_2: <input type="number" name="PAY_2"><br><br>
+        PAY_3: <input type="number" name="PAY_3"><br><br>
+        PAY_4: <input type="number" name="PAY_4"><br><br>
+        PAY_5: <input type="number" name="PAY_5"><br><br>
+        PAY_6: <input type="number" name="PAY_6"><br><br>
+
+        BILL_AMT1: <input type="number" name="BILL_AMT1"><br><br>
+        BILL_AMT2: <input type="number" name="BILL_AMT2"><br><br>
+        BILL_AMT3: <input type="number" name="BILL_AMT3"><br><br>
+        BILL_AMT4: <input type="number" name="BILL_AMT4"><br><br>
+        BILL_AMT5: <input type="number" name="BILL_AMT5"><br><br>
+        BILL_AMT6: <input type="number" name="BILL_AMT6"><br><br>
+
+        PAY_AMT1: <input type="number" name="PAY_AMT1"><br><br>
+        PAY_AMT2: <input type="number" name="PAY_AMT2"><br><br>
+        PAY_AMT3: <input type="number" name="PAY_AMT3"><br><br>
+        PAY_AMT4: <input type="number" name="PAY_AMT4"><br><br>
+        PAY_AMT5: <input type="number" name="PAY_AMT5"><br><br>
+        PAY_AMT6: <input type="number" name="PAY_AMT6"><br><br>
+
+        <input type="submit" value="Predict">
+
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
